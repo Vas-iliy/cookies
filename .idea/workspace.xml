@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="139a1112-7a3d-4618-83bb-6455b01f4e11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/arrs.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/sissions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/v_login.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/v_registrations.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/db.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/db.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/registrations.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/registrations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/auth.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init.php" beforeDir="false" afterPath="$PROJECT_DIR$/init.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/sissions.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/sissions.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/defolt/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/defolt/main.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/registrations.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/registrations.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/v_index.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/v_index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +48,13 @@
         <item name="@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="cookies: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cookies: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="login: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -116,7 +115,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591145492309</updated>
-      <workItem from="1591145494781" duration="10443000" />
+      <workItem from="1591145494781" duration="15656000" />
     </task>
     <servers />
   </component>

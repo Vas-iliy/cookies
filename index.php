@@ -1,6 +1,10 @@
 <?php
-include_once ('init.php');
 session_start();
+include_once ('init.php');
+
+$user = authGetUser();
+$k =1;
+
 define('URL_PARAMS', parsUrl($_GET['querysystemurl'] ?? ''));
 $cname = URL_PARAMS[0] ?? 'index';
 $patch = "controllers/$cname.php";
@@ -18,7 +22,8 @@ if (checkControllerName($cname) && file_exists($patch)) {
 
 $html = template('defolt/main', [
     'title' => $pageTitle,
-    'content' => $pageContent
+    'content' => $pageContent,
+    'user' => $user
 ]);
 
 echo $html;
