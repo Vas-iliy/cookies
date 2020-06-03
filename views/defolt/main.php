@@ -21,6 +21,12 @@
             <li class="nav-item">
                 <a class="nav-link" href="/">Домой</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/login">Логин</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/registrations">Регистрация</a>
+            </li>
         </ul>
     </div>
 </nav>
