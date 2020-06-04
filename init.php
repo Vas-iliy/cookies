@@ -6,3 +6,4 @@ include_once ('core/arrs.php');
 
 include_once ('models/login.php');
 include_once ('models/sissions.php');
+include_once ('models/registrations.php');
