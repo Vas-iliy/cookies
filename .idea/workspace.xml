@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="139a1112-7a3d-4618-83bb-6455b01f4e11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/views/errors/v_404.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/registrations.php" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/registrations.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/sissions.php" beforeDir="false" afterPath="$PROJECT_DIR$/models/sissions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/defolt/main.php" beforeDir="false" afterPath="$PROJECT_DIR$/views/defolt/main.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -115,7 +111,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1591145492309</updated>
-      <workItem from="1591145494781" duration="15656000" />
+      <workItem from="1591145494781" duration="15713000" />
+      <workItem from="1591278006952" duration="510000" />
     </task>
     <servers />
   </component>
@@ -127,7 +124,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

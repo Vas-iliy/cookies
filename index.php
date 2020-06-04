@@ -11,9 +11,6 @@ $patch = "controllers/$cname.php";
 $pageTitle = 'Ошибка 404';
 $pageContent = '';
 
-
-
-
 if (checkControllerName($cname) && file_exists($patch)) {
     include_once ($patch);
 } else {
