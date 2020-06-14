@@ -4,7 +4,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $login = extractFields($_POST, ['login', 'password'] );
     $remember = isset($_POST['remember']);
     if (searchValidate($login['login'])) {
-        $user = usersOne($login['login']);
         $authArr = true;
 
         if($login != '' && $login['password'] != '') {
